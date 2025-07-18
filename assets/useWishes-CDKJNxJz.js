@@ -1,4 +1,4 @@
-import{supabase as o}from"./supabase-CjQk5Uh3.js";import{r as n,i as v}from"./index-BwBwbac9.js";const F=()=>{const c=n([]),t=n(!1),d=v(()=>t.value),u=async r=>{t.value=!0;try{const{data:s,error:e}=await o.from("wishes").insert([{...r,visibility:r.visibility||"friends",is_bought:!1,is_received:!1}]).select(`
+import{supabase as o}from"./supabase-CzT8qtRc.js";import{r as n,i as v}from"./index-fFjDkX5r.js";const F=()=>{const c=n([]),t=n(!1),d=v(()=>t.value),u=async r=>{t.value=!0;try{const{data:s,error:e}=await o.from("wishes").insert([{...r,visibility:r.visibility||"friends",is_bought:!1,is_received:!1}]).select(`
           *,
           created_for_user:profiles!wishes_created_for_user_id_fkey(*),
           created_by_user:profiles!wishes_created_by_user_id_fkey(*)
