@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Darkovnicek – Gift Manager</title>
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#1976D2"/>
+  <!-- Gift lid -->
+  <rect x="80" y="176" width="352" height="48" rx="12" stroke="#FFFFFF" stroke-width="28" fill="none"/>
+  <!-- Gift box -->
+  <rect x="112" y="224" width="288" height="192" rx="16" stroke="#FFFFFF" stroke-width="28" fill="none"/>
+  <!-- Vertical ribbon -->
+  <line x1="256" y1="224" x2="256" y2="416" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round"/>
+  <!-- Bow (left & right loops) -->
+  <path d="M256 176 C220 116, 156 116, 160 176" stroke="#FFFFFF" stroke-width="28" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 176 C292 116, 356 116, 352 176" stroke="#FFFFFF" stroke-width="28" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Check mark on the box -->
+  <path d="M180 320 L232 372 L336 268" stroke="#FFFFFF" stroke-width="28" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Safe area guide (hidden) -->
+  <!-- <rect x="96" y="96" width="320" height="320" rx="64" fill="none" stroke="rgba(255,255,255,0.15)" stroke-dasharray="8 8"/> -->
+</svg>
