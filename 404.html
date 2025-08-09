@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0;url=/" />
+    <script>
+      (function () {
+        try {
+          var newUrl = '/' + (window.location.search || '') + (window.location.hash || '');
+          // Ensure we always redirect to the site root and keep Supabase hash tokens
+          window.location.replace(newUrl);
+        } catch (e) {
+          // Fallback to root; user can navigate manually
+          window.location.replace('/');
+        }
+      })();
+    </script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: system-ui, Arial, sans-serif;
+      }
+      .wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div>Redirecting…</div>
+    </div>
+  </body>
+</html>
